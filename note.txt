@@ -1,0 +1,12 @@
+space-x-4 
+    Cách sử dụng: Sử dụng space-x (hoặc space-y cho trục dọc) để tạo khoảng cách giữa các phần tử con trong một container có flex.
+    Hoạt động: space-x chỉ áp dụng khoảng cách ngang giữa các phần tử con (trục X). Tương tự, space-y áp dụng khoảng cách dọc (trục Y). Không như gap, space-x chỉ hoạt động với các container sử dụng flex.
+gap-4
+    Cách sử dụng: Sử dụng gap để tạo khoảng cách giữa các phần tử con trong cả trục X (ngang) và trục Y (dọc) khi bạn đang làm việc với bố cục grid hoặc flex.
+    Hoạt động: gap áp dụng khoảng cách đồng đều giữa tất cả các phần tử con theo cả hai trục.
+group 
+    group là một utility class rất hữu ích khi bạn muốn áp dụng các style vào các phần tử con (children) khi một phần tử cha (parent) có một trạng thái nhất định, chẳng hạn như khi phần tử cha đang được hover hoặc focus.
+    group: Bạn áp dụng lớp group vào phần tử cha. Điều này cho phép bạn sử dụng các pseudo-class như group-hover, group-focus, group-active,... trong các phần tử con để thay đổi style dựa trên trạng thái của phần tử cha.
+backdrop-blur-sm: Áp dụng hiệu ứng mờ nhẹ (4px) lên bất cứ thứ gì nằm phía sau lớp backdrop.
+duration-500 là một utility class dùng để xác định thời gian của một transition, cụ thể là 500ms (0.5 giây). Khi bạn áp dụng lớp này vào một phần tử cùng với các lớp khác như transition hoặc transition-all, nó sẽ kiểm soát khoảng thời gian mà hiệu ứng chuyển đổi diễn ra
+ease-in-out: Đây là một hàm thời gian kết hợp giữa ease-in và ease-out. Transition bắt đầu chậm (ease-in), sau đó nhanh hơn ở giữa, và kết thúc chậm lại (ease-out). Kết quả là một hiệu ứng chuyển đổi mượt mà và tự nhiên.
