@@ -1,9 +1,8 @@
 import * as PropTypes from 'prop-types';
-import IconPlay from '../assets/play-button.png';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import  Modal from "react-modal";
-import { useState } from 'react';
+import React,{ useState } from 'react';
 import YouTube from 'react-youtube';
 
 Modal.setAppElement('#root');
